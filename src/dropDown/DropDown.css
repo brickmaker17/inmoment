@@ -1,0 +1,25 @@
+.drop-down {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px 0px;
+    border-radius: 6px;
+    width: 592px;
+    text-align: left;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55px 55px 55px 55px 55px;
+}
+ul > li {
+    height: 55px;
+    padding-left: 22px;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #cfcfcf;
+}
+ul > li:hover {
+    transform-origin: 50% 50% 0px;
+    transition: all 0.2s ease 0s;
+    background-color: #b2ccff;
+}
+li:last-child {
+    border: none;
+}
