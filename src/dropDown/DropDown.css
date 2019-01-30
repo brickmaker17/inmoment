@@ -2,11 +2,30 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px 0px;
     border-radius: 6px;
     width: 592px;
+    padding-left: 0;
+    margin: 0;
     text-align: left;
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 55px 55px 55px 55px 55px;
+}
+.dd-header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 20px 15px;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 22px;
+    border-radius: 27px;
+}
+.dd-arrow {
+    transform: scaleY(-1);
+}
+.dd-wrapper {
+    position: absolute;
+    top: 14%;
+    width: 592px;    
 }
 ul > li {
     height: 55px;
